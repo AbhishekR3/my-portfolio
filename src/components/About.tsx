@@ -20,7 +20,7 @@ const About = ({ data }: AboutProps) => {
           </div>
           {data.imageUrl && (
             <div className="about-image">
-              <img src={data.imageUrl} alt={data.name} />
+              <img src={`${import.meta.env.BASE_URL}${data.imageUrl.replace(/^\//, '')}`} alt={data.name} />
             </div>
           )}
         </div>

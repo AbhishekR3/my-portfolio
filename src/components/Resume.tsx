@@ -16,7 +16,7 @@ const Resume = ({ data }: ResumeProps) => {
         <div className="resume-header">
           <h2>Resume</h2>
           <a
-            href={data.pdfUrl}
+            href={`${import.meta.env.BASE_URL}${data.pdfUrl.replace(/^\//, '')}`}
             download="Abhishek Ramesh Resume.pdf"
             className="download-button"
           >

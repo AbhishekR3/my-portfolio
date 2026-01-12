@@ -2,6 +2,14 @@ import './Header.css';
 
 const Header = () => {
   const scrollToSection = (id: string) => {
+    if (id === 'home') {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+      return;
+    }
+
     const element = document.getElementById(id);
     if (element) {
       const headerOffset = 40; // Offset to account for fixed header

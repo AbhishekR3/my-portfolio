@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "title": "PlayBook AI: Basketball Intelligence",
+    "description": "Advanced video analysis software that classifies offensive and defensive basketball plays using computer vision and deep learning. Achieved 87.6% accuracy with temporal neural networks and engineered a custom YOLO object tracking model with 99.5% mAP50 and 99.6% precision. Features spatial database with <80ms query response times and optimized AWS infrastructure reducing compute costs by 63%.\n\nProduct Goals: Help basketball professionals analyze offensive and defensive plays executed by teams, assess potential player fit within a team, understand play patterns in critical game moments, and identify a team's most/least successful plays.",
+    "tags": ["Neural Networks", "Spatial Computing", "AWS", "Docker", "GPU-Acceleration"],
+    "githubUrl": "https://github.com/AbhishekR3/Basketball-PlayAnalysis",
+    "imageUrl": "https://raw.githubusercontent.com/AbhishekR3/Basketball-PlayAnalysis/main/assets/ObjectTracking%20Demo.gif",
+    "featured": true
+  }
+]

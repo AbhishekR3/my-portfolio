@@ -1,0 +1,26 @@
+[
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/abhishekramesh3/",
+    "icon": "linkedin",
+    "username": "abhishekramesh3"
+  },
+  {
+    "platform": "Email",
+    "url": "mailto:abhishekramesh@gmail.com",
+    "icon": "email",
+    "username": "abhishekramesh@gmail.com"
+  },
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/AbhishekR3",
+    "icon": "github",
+    "username": "AbhishekR3"
+  },
+  {
+    "platform": "X",
+    "url": "https://x.com/ShakeThoughts",
+    "icon": "x",
+    "username": "@ShakeThoughts"
+  }
+]

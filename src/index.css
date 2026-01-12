@@ -1,0 +1,247 @@
+:root {
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-elevated: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-accent: #0066cc;
+  --color-accent-hover: #0052a3;
+  --color-border: #e0e0e0;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-card-shadow: rgba(0, 0, 0, 0.05);
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dark {
+  --color-bg: #0f0f0f;
+  --color-bg-secondary: #1a1a1a;
+  --color-bg-elevated: #242424;
+  --color-text: #f0f0f0;
+  --color-text-secondary: #a0a0a0;
+  --color-accent: #3b82f6;
+  --color-accent-hover: #60a5fa;
+  --color-border: #333333;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-card-shadow: rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-md);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+p {
+  margin-bottom: var(--spacing-sm);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: all 0.2s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.section {
+  padding: var(--spacing-2xl) 0;
+}
+
+.card {
+  background-color: var(--color-bg-elevated);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px 8px var(--color-card-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-right: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Tech skill color coding - Individual colors for variety */
+/* ML/AI Frameworks - Purple shades */
+.tag-pytorch { background-color: rgba(139, 92, 246, 0.1); border-color: rgba(139, 92, 246, 0.3); color: #8b5cf6; }
+.tag-tensorflow { background-color: rgba(168, 85, 247, 0.1); border-color: rgba(168, 85, 247, 0.3); color: #a855f7; }
+.tag-opencv { background-color: rgba(124, 58, 237, 0.1); border-color: rgba(124, 58, 237, 0.3); color: #7c3aed; }
+.tag-hugging-face { background-color: rgba(147, 51, 234, 0.1); border-color: rgba(147, 51, 234, 0.3); color: #9333ea; }
+.tag-cuda { background-color: rgba(109, 40, 217, 0.1); border-color: rgba(109, 40, 217, 0.3); color: #6d28d9; }
+.tag-numpy { background-color: rgba(126, 34, 206, 0.1); border-color: rgba(126, 34, 206, 0.3); color: #7e22ce; }
+.tag-pandas { background-color: rgba(147, 51, 234, 0.1); border-color: rgba(147, 51, 234, 0.3); color: #9333ea; }
+.tag-scipy { background-color: rgba(168, 85, 247, 0.1); border-color: rgba(168, 85, 247, 0.3); color: #a855f7; }
+
+/* Computer Vision - Pink/Rose shades */
+.tag-cnn { background-color: rgba(236, 72, 153, 0.1); border-color: rgba(236, 72, 153, 0.3); color: #ec4899; }
+.tag-lstm { background-color: rgba(244, 63, 94, 0.1); border-color: rgba(244, 63, 94, 0.3); color: #f43f5e; }
+.tag-transformers { background-color: rgba(251, 113, 133, 0.1); border-color: rgba(251, 113, 133, 0.3); color: #fb7185; }
+.tag-yolo { background-color: rgba(225, 29, 72, 0.1); border-color: rgba(225, 29, 72, 0.3); color: #e11d48; }
+.tag-object-detection { background-color: rgba(236, 72, 153, 0.1); border-color: rgba(236, 72, 153, 0.3); color: #ec4899; }
+.tag-temporal-neural-networks { background-color: rgba(219, 39, 119, 0.1); border-color: rgba(219, 39, 119, 0.3); color: #db2777; }
+.tag-image-processing { background-color: rgba(244, 63, 94, 0.1); border-color: rgba(244, 63, 94, 0.3); color: #f43f5e; }
+.tag-video-analysis { background-color: rgba(225, 29, 72, 0.1); border-color: rgba(225, 29, 72, 0.3); color: #e11d48; }
+
+/* Infrastructure/MLOps - Blue shades */
+.tag-docker { background-color: rgba(59, 130, 246, 0.1); border-color: rgba(59, 130, 246, 0.3); color: #3b82f6; }
+.tag-kubernetes { background-color: rgba(37, 99, 235, 0.1); border-color: rgba(37, 99, 235, 0.3); color: #2563eb; }
+.tag-aws { background-color: rgba(30, 64, 175, 0.1); border-color: rgba(30, 64, 175, 0.3); color: #1e40af; }
+.tag-azure { background-color: rgba(59, 130, 246, 0.1); border-color: rgba(59, 130, 246, 0.3); color: #3b82f6; }
+.tag-ci-cd { background-color: rgba(96, 165, 250, 0.1); border-color: rgba(96, 165, 250, 0.3); color: #60a5fa; }
+.tag-model-deployment { background-color: rgba(37, 99, 235, 0.1); border-color: rgba(37, 99, 235, 0.3); color: #2563eb; }
+.tag-vector-databases { background-color: rgba(30, 64, 175, 0.1); border-color: rgba(30, 64, 175, 0.3); color: #1e40af; }
+
+/* Data Engineering - Green/Teal shades */
+.tag-apache-hive { background-color: rgba(34, 197, 94, 0.1); border-color: rgba(34, 197, 94, 0.3); color: #22c55e; }
+.tag-apache-airflow { background-color: rgba(20, 184, 166, 0.1); border-color: rgba(20, 184, 166, 0.3); color: #14b8a6; }
+.tag-databricks { background-color: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.3); color: #10b981; }
+.tag-sql { background-color: rgba(5, 150, 105, 0.1); border-color: rgba(5, 150, 105, 0.3); color: #059669; }
+.tag-nosql { background-color: rgba(6, 182, 212, 0.1); border-color: rgba(6, 182, 212, 0.3); color: #06b6d4; }
+.tag-etl-pipelines { background-color: rgba(20, 184, 166, 0.1); border-color: rgba(20, 184, 166, 0.3); color: #14b8a6; }
+.tag-apache-nifi { background-color: rgba(34, 197, 94, 0.1); border-color: rgba(34, 197, 94, 0.3); color: #22c55e; }
+
+/* Programming Languages - Orange/Amber shades */
+.tag-python { background-color: rgba(249, 115, 22, 0.1); border-color: rgba(249, 115, 22, 0.3); color: #f97316; }
+.tag-r { background-color: rgba(251, 146, 60, 0.1); border-color: rgba(251, 146, 60, 0.3); color: #fb923c; }
+
+/* Dark mode variants */
+.dark .tag-pytorch { background-color: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.4); color: #a78bfa; }
+.dark .tag-tensorflow { background-color: rgba(168, 85, 247, 0.15); border-color: rgba(168, 85, 247, 0.4); color: #c084fc; }
+.dark .tag-opencv { background-color: rgba(124, 58, 237, 0.15); border-color: rgba(124, 58, 237, 0.4); color: #a78bfa; }
+.dark .tag-hugging-face { background-color: rgba(147, 51, 234, 0.15); border-color: rgba(147, 51, 234, 0.4); color: #c084fc; }
+.dark .tag-cuda { background-color: rgba(109, 40, 217, 0.15); border-color: rgba(109, 40, 217, 0.4); color: #a78bfa; }
+.dark .tag-numpy { background-color: rgba(126, 34, 206, 0.15); border-color: rgba(126, 34, 206, 0.4); color: #c084fc; }
+.dark .tag-pandas { background-color: rgba(147, 51, 234, 0.15); border-color: rgba(147, 51, 234, 0.4); color: #c084fc; }
+.dark .tag-scipy { background-color: rgba(168, 85, 247, 0.15); border-color: rgba(168, 85, 247, 0.4); color: #c084fc; }
+
+.dark .tag-cnn { background-color: rgba(236, 72, 153, 0.15); border-color: rgba(236, 72, 153, 0.4); color: #f472b6; }
+.dark .tag-lstm { background-color: rgba(244, 63, 94, 0.15); border-color: rgba(244, 63, 94, 0.4); color: #fb7185; }
+.dark .tag-transformers { background-color: rgba(251, 113, 133, 0.15); border-color: rgba(251, 113, 133, 0.4); color: #fda4af; }
+.dark .tag-yolo { background-color: rgba(225, 29, 72, 0.15); border-color: rgba(225, 29, 72, 0.4); color: #fb7185; }
+.dark .tag-object-detection { background-color: rgba(236, 72, 153, 0.15); border-color: rgba(236, 72, 153, 0.4); color: #f472b6; }
+.dark .tag-temporal-neural-networks { background-color: rgba(219, 39, 119, 0.15); border-color: rgba(219, 39, 119, 0.4); color: #f472b6; }
+.dark .tag-image-processing { background-color: rgba(244, 63, 94, 0.15); border-color: rgba(244, 63, 94, 0.4); color: #fb7185; }
+.dark .tag-video-analysis { background-color: rgba(225, 29, 72, 0.15); border-color: rgba(225, 29, 72, 0.4); color: #fb7185; }
+
+.dark .tag-docker { background-color: rgba(59, 130, 246, 0.15); border-color: rgba(59, 130, 246, 0.4); color: #60a5fa; }
+.dark .tag-kubernetes { background-color: rgba(37, 99, 235, 0.15); border-color: rgba(37, 99, 235, 0.4); color: #60a5fa; }
+.dark .tag-aws { background-color: rgba(30, 64, 175, 0.15); border-color: rgba(30, 64, 175, 0.4); color: #60a5fa; }
+.dark .tag-azure { background-color: rgba(59, 130, 246, 0.15); border-color: rgba(59, 130, 246, 0.4); color: #60a5fa; }
+.dark .tag-ci-cd { background-color: rgba(96, 165, 250, 0.15); border-color: rgba(96, 165, 250, 0.4); color: #93c5fd; }
+.dark .tag-model-deployment { background-color: rgba(37, 99, 235, 0.15); border-color: rgba(37, 99, 235, 0.4); color: #60a5fa; }
+.dark .tag-vector-databases { background-color: rgba(30, 64, 175, 0.15); border-color: rgba(30, 64, 175, 0.4); color: #60a5fa; }
+
+.dark .tag-apache-hive { background-color: rgba(34, 197, 94, 0.15); border-color: rgba(34, 197, 94, 0.4); color: #4ade80; }
+.dark .tag-apache-airflow { background-color: rgba(20, 184, 166, 0.15); border-color: rgba(20, 184, 166, 0.4); color: #5eead4; }
+.dark .tag-databricks { background-color: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.4); color: #4ade80; }
+.dark .tag-sql { background-color: rgba(5, 150, 105, 0.15); border-color: rgba(5, 150, 105, 0.4); color: #4ade80; }
+.dark .tag-nosql { background-color: rgba(6, 182, 212, 0.15); border-color: rgba(6, 182, 212, 0.4); color: #5eead4; }
+.dark .tag-etl-pipelines { background-color: rgba(20, 184, 166, 0.15); border-color: rgba(20, 184, 166, 0.4); color: #5eead4; }
+.dark .tag-apache-nifi { background-color: rgba(34, 197, 94, 0.15); border-color: rgba(34, 197, 94, 0.4); color: #4ade80; }
+
+.dark .tag-python { background-color: rgba(249, 115, 22, 0.15); border-color: rgba(249, 115, 22, 0.4); color: #fb923c; }
+.dark .tag-r { background-color: rgba(251, 146, 60, 0.15); border-color: rgba(251, 146, 60, 0.4); color: #fdba74; }
+
+@media (max-width: 768px) {
+  :root {
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+}

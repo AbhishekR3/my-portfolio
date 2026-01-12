@@ -1,0 +1,106 @@
+{
+  "pdfUrl": "/resume.pdf",
+  "sections": [
+    {
+      "title": "Experience",
+      "items": [
+        {
+          "title": "IT Applications Engineer II",
+          "subtitle": "Kaiser Permanente - Risk Adjustment Data Analytics",
+          "date": "May 2022 - Present",
+          "description": [
+            "I perform DevOps for high-volume data infrastructure, managing ETL pipelines that process nearly 1TB daily in secure Azure environments. Saved $3k monthly in operational costs through developing automated tracking systems for 1,500+ tables. Led cloud modernization of legacy financial systems, contributing in development work while ensuring seamless migration and strict healthcare compliance standards."
+          ],
+          "tags": ["Azure", "Apache Hive", "Databricks", "PowerBI"]
+        },
+        {
+          "title": "IT Applications Engineer II",
+          "subtitle": "Kaiser Permanente - External Provider Analysis Tool",
+          "date": "April 2025 - Present",
+          "description": [
+            "Designed an ML pipeline that cut medical document review time by 99%—from hours to minutes. Built scalable Docker/K8s infrastructure with parallel processing, achieving 96% extraction accuracy and sub-100ms query responses through optimized vector search. Collaborated with product owners on technical specifications to ensure seamless delivery."
+          ],
+          "tags": ["PyTorch", "Docker", "Kubernetes", "Cosmos DB", "NLP"]
+        },
+        {
+          "title": "Junior Software Engineer",
+          "subtitle": "Optiwise",
+          "date": "August 2021 - May 2022",
+          "description": [
+            "Extended the medical records project by implementing encrypted AWS storage using EKS/RDS/DynamoDB/S3. Optimized data processing with parallel computing, reducing processing time by 8%, while leading task planning and delegation within the development team."
+          ],
+          "tags": ["Python", "AWS EKS", "DynamoDB", "S3"]
+        },
+        {
+          "title": "Software Engineer Intern",
+          "subtitle": "Optiwise",
+          "date": "May 2021 - August 2021",
+          "description": [
+            "Built a REST API for secure medical record sharing with 97.8% document classification accuracy using Google Cloud Vision, SciPy, and spaCy. Collaborated with technical teams to deliver HIPAA-compliant healthcare solutions."
+          ],
+          "tags": ["Python", "Google Cloud Vision", "spaCy"]
+        },
+        {
+          "title": "Content Creator",
+          "subtitle": "StrataScratch",
+          "date": "July 2021 - June 2022",
+          "description": [
+            "Developed content for the #1 data science interview prep platform with 20,000+ community members."
+          ],
+          "tags": ["SQL", "Python", "Data Analysis"]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "items": [
+        {
+          "title": "M.S Data Science",
+          "subtitle": "University of Texas at Austin - Department of Statistics & Data Sciences",
+          "date": "August 2024 - December 2025",
+          "description": [
+            "GPA: 3.47",
+            "Relevant Coursework: Advanced Deep Learning, Reinforcement Learning, Data Structures and Algorithms"
+          ]
+        },
+        {
+          "title": "B.S Data Science",
+          "subtitle": "University of San Francisco - Department of Mathematics & Statistics",
+          "date": "August 2018 - May 2021",
+          "description": [
+            "GPA: 3.4",
+            "Coursework: Applied Data Science Methods, Statistical Learning, Statistics with Application",
+            "Teaching Assistant for Intro to Data Science (Fall 2020, Spring 2021, Fall 2021)",
+            "Internal Chair of Data Science Association (2018-2019)",
+            "Co-President of Data Science Association (2019-2020)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Technical Skills",
+      "items": [
+        {
+          "title": "ML/AI Frameworks",
+          "tags": ["PyTorch", "TensorFlow", "OpenCV", "Hugging Face", "CUDA", "NumPy", "Pandas", "SciPy"]
+        },
+        {
+          "title": "Deep Learning & Computer Vision",
+          "tags": ["CNN", "LSTM", "Transformers", "YOLO", "Object Detection", "Temporal Neural Networks", "Image Processing", "Video Analysis"]
+        },
+        {
+          "title": "MLOps & Infrastructure",
+          "tags": ["Docker", "Kubernetes", "AWS", "Azure", "CI/CD", "Model Deployment", "Vector Databases"]
+        },
+        {
+          "title": "Data Engineering",
+          "tags": ["Apache Hive", "Apache Airflow", "Databricks", "SQL", "NoSQL", "ETL Pipelines", "Apache NiFi"]
+        },
+        {
+          "title": "Programming Languages",
+          "tags": ["Python", "R", "SQL"]
+        }
+      ]
+    }
+  ]
+}

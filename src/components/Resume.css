@@ -1,0 +1,120 @@
+.resume-section {
+  background-color: var(--color-bg-secondary);
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-xl);
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-accent);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.resume-section-block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.resume-section-title {
+  font-size: 1.75rem;
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-accent);
+  margin-bottom: var(--spacing-sm);
+}
+
+.resume-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.resume-item {
+  background-color: var(--color-bg);
+}
+
+.resume-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-sm);
+  gap: var(--spacing-md);
+}
+
+.resume-item-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.resume-item-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.resume-item-date {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.resume-item-description {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.resume-item-description p {
+  margin-bottom: 0.5rem;
+}
+
+.resume-item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-top: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+  .resume-item-header {
+    flex-direction: column;
+  }
+
+  .resume-item-date {
+    align-self: flex-start;
+  }
+
+  .resume-section-title {
+    font-size: 1.5rem;
+  }
+
+  .download-button {
+    width: 100%;
+    justify-content: center;
+  }
+}

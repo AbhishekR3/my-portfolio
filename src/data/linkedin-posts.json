@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "The Hidden Cost of AI in Early Careers",
+    "content": "Exploring how AI adoption is reshaping entry-level positions and what it means for career development in the age of automation.",
+    "date": "2025-12-30",
+    "url": "https://www.linkedin.com/posts/abhishekramesh3_ai-futureofwork-careerdevelopment-activity-7411926004841082881-MxCv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACBzSrsBTbDFtnFQ6QKkPvwm9Z8n_9HfWRk",
+    "platform": "LinkedIn"
+  },
+  {
+    "id": "2",
+    "title": "Collaborative Coding in the Age of LLMs",
+    "content": "Exploring how AI is transforming the software development lifecycle. From code generation to automated testing, LLMs are reshaping how we build software. Deep dive into practical applications and future implications.",
+    "date": "2025-04-14",
+    "url": "https://www.linkedin.com/pulse/llm-models-software-development-abhishek-ramesh-pjvzc/",
+    "platform": "LinkedIn"
+  },
+  {
+    "id": "3",
+    "title": "History of the Price of Cryptocurrency Visualization",
+    "content": "The project discusses about cryptocurrency prices and what might affect them. The visualizations show comparisons between prices of cryptocurrencies, networks used by the cryptocurrencies, history of Bitcoin, and cryptocurrencies as a method of investment.",
+    "date": "2021-08-28",
+    "url": "https://github.com/AbhishekR3/CryptoPriceVisualization/blob/main/History%20of%20the%20Price%20of%20Cryptocurrency%20Report.pdf",
+    "platform": "GitHub Pages"
+  },
+  {
+    "id": "4",
+    "title": "Predicting Covid-19 Effect on San Francisco City Job Market",
+    "content": "Published analysis on Medium examining SF's evolving tech landscape, remote work trends, and what it means for job seekers and companies. Data-driven insights on market dynamics and predictions.",
+    "date": "2020-05-12",
+    "url": "https://medium.com/@Abhishek3/future-of-san-francisco-job-market-41c1ee9be07a",
+    "platform": "Medium"
+  }
+]

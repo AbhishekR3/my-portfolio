@@ -17,10 +17,10 @@ const Resume = ({ data }: ResumeProps) => {
           <h2>Resume</h2>
           <a
             href={`${import.meta.env.BASE_URL}${data.pdfUrl.replace(/^\//, '')}`}
-            download="Abhishek Ramesh Resume.pdf"
+            download="Abhishek Ramesh Resume"
             className="download-button"
           >
-            Download PDF ⬇
+            Download PDF
           </a>
         </div>
 

@@ -11,10 +11,11 @@ const Header = () => {
     }
 
     const element = document.getElementById(id);
+    const header = document.querySelector('.header');
     if (element) {
-      const headerOffset = 40; // Offset to account for fixed header
+      const headerHeight = header ? header.getBoundingClientRect().height : 40;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const offsetPosition = elementPosition + window.pageYOffset - headerHeight + 35;
 
       window.scrollTo({
         top: offsetPosition,

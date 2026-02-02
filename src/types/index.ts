@@ -38,12 +38,18 @@ export interface ResumeSection {
   items: ResumeSectionItem[];
 }
 
+export interface ResumeLink {
+  label: string;
+  url: string;
+}
+
 export interface ResumeSectionItem {
   title: string;
   subtitle?: string;
   date?: string;
   description?: string[];
   tags?: string[];
+  links?: ResumeLink[];
 }
 
 export interface AboutData {

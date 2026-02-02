@@ -35,7 +35,17 @@
           "description": [
             "Developed content for the #1 data science interview prep platform with 20,000+ community members"
           ],
-          "tags": ["SQL", "Python", "Data Analysis"]
+          "tags": ["SQL", "Python", "Data Analysis"],
+          "links": [
+            {
+              "label": "Data Science Business Case Questions Guide",
+              "url": "https://www.stratascratch.com/blog/how-to-solve-data-science-business-case-interview-questions"
+            },
+            {
+              "label": "Data Science Product Questions Guide",
+              "url": "https://www.stratascratch.com/blog/the-ultimate-guide-to-product-data-science-interview-questions"
+            }
+          ]
         },
         {
           "title": "Junior Software Engineer",
@@ -88,7 +98,7 @@
             "GPA: 3.4",
             "Coursework: Applied Data Science Methods, Statistical Learning, Statistics with Application",
             "Internal Chair of Data Science Association (2018-2019)",
-            "Co-President of Data Science Association (2019-2020)"
+            "President of Data Science Association (2019-2020)"
           ]
         }
       ]
@@ -98,15 +108,15 @@
       "items": [
         {
           "title": "Machine Learning & Deep Learning",
-          "tags": ["PyTorch", "TensorFlow", "Hugging Face", "Neural Networks", "Transformers", "RAG (Retrieval-Augmented Generation)", "Tokenization", "Feature Engineering", "Dimensionality Reduction", "Cross-Validation", "Reinforcement Learning", "Time Series Analysis", "A/B Testing", "Hypothesis Testing"]
+          "tags": ["PyTorch", "TensorFlow", "Neural Networks", "Transformers", "RAG (Retrieval-Augmented Generation)", "Tokenization", "Feature Engineering", "Dimensionality Reduction", "Cross-Validation", "Reinforcement Learning", "Time Series Analysis", "A/B Testing", "Hypothesis Testing", "Model Evaluation"]
         },
         {
           "title": "Computer Vision",
-          "tags": ["OpenCV", "YOLO", "Google Cloud Vision", "Multi Object Detection", "Image Processing", "Video Analysis", "Temporal Neural Networks"]
+          "tags": ["OpenCV", "YOLO", "Google Cloud Vision", "Multi Object Detection", "Image Processing", "Video Analysis"]
         },
         {
           "title": "Data Engineering & Infrastructure",
-          "tags": ["Apache Hive", "Apache Airflow", "Apache NiFi", "Databricks", "ETL Pipelines", "Relational Database", "Spatial Database", "Vector Databases", "NoSQL"]
+          "tags": ["Apache Hive", "Apache Airflow", "Apache NiFi", "Databricks", "ETL Pipelines", "Relational Database", "Spatial Database", "Vector Databases"]
         },
         {
           "title": "Cloud Platforms & MLOps",

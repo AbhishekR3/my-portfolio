@@ -51,6 +51,22 @@ const Resume = ({ data }: ResumeProps) => {
                       </div>
                     )}
 
+                    {item.links && (
+                      <div className="resume-item-links">
+                        {item.links.map((link, linkIndex) => (
+                          <a
+                            key={linkIndex}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="resume-link-button"
+                          >
+                            {link.label}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+
                     {item.tags && (
                       <div className="resume-item-tags">
                         {item.tags.map((tag) => (

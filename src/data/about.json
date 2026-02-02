@@ -1,7 +1,7 @@
 {
   "name": "Abhishek Ramesh",
   "title": "Machine Learning Engineer",
-  "bio": "I am a Machine Learning Engineer with a Data Science graduate degree from UT Austin. I have worked on a range of ML/AI tech stacks from computer vision to data engineering to LLMs. I currently work at Kaiser Permanente where I build and maintain data pipelines that process around 1TB daily and AI systems that save millions annually. I am passionate about understanding technical solutions and their business models.",
+  "bio": "I am a Machine Learning Engineer with a Data Science graduate degree from UT Austin. I have worked on a range of ML/AI tech stacks from computer vision to data engineering to LLMs. I currently work at Kaiser Permanente where I build and maintain AI systems that save millions annually and data pipelines that process 1TB/daily. I am passionate about understanding technical solutions and their business models.",
   "email": "abhishekramesh@gmail.com",
   "location": "San Francisco Bay Area",
   "imageUrl": "/Abhishek_Headshot.jpeg"

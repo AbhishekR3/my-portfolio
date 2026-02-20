@@ -50,11 +50,15 @@
 }
 
 .post-platform-badge.platform-medium {
-  background-color: #00ab6c;
+  background-color: #1a8917;
 }
 
 .post-platform-badge.platform-github-pages {
   background-color: #8b5cf6;
+}
+
+.post-platform-badge.platform-stratascratch {
+  background-color: #05a599;
 }
 
 .post-title {

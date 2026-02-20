@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(gh run list:*)",
+      "Bash(npm run deploy:*)",
+      "WebFetch(domain:www.stratascratch.com)",
+      "Bash(git add:*)"
     ]
   }
 }

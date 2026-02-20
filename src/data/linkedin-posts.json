@@ -17,6 +17,22 @@
   },
   {
     "id": "3",
+    "title": "Solving Business Case Interview Questions",
+    "content": "A comprehensive guide on tackling business case interview questions in data science, covering structured frameworks for applied data, sizing, and theory based problems with real company examples and practical strategies.",
+    "date": "2021-10-29",
+    "url": "https://www.stratascratch.com/blog/how-to-solve-data-science-business-case-interview-questions",
+    "platform": "StrataScratch"
+  },
+  {
+    "id": "4",
+    "title": "Solving Product Interview Questions",
+    "content": "An in-depth guide to mastering product sense interview questions, providing frameworks for analyzing metrics, measuring product impact, and designing data driven solutions with real world examples and preparation strategies.",
+    "date": "2021-09-21",
+    "url": "https://www.stratascratch.com/blog/the-ultimate-guide-to-product-data-science-interview-questions",
+    "platform": "StrataScratch"
+  },
+  {
+    "id": "5",
     "title": "History of the Price of Cryptocurrency Visualization",
     "content": "The project discusses about cryptocurrency prices and what might affect them. The visualizations show comparisons between prices of cryptocurrencies, networks used by the cryptocurrencies, history of Bitcoin, and cryptocurrencies as a method of investment.",
     "date": "2021-08-28",
@@ -24,7 +40,7 @@
     "platform": "GitHub Pages"
   },
   {
-    "id": "4",
+    "id": "6",
     "title": "Predicting Covid-19 Effect on San Francisco City Job Market",
     "content": "Published data driven analysis on Medium predicting SF's job market after the initial phase of Covid-19.",
     "date": "2020-05-12",

@@ -35,17 +35,7 @@
           "description": [
             "Developed content for the #1 data science interview prep platform with 20,000+ community members"
           ],
-          "tags": ["SQL", "Python", "Data Analysis"],
-          "links": [
-            {
-              "label": "Data Science Business Case Questions Guide",
-              "url": "https://www.stratascratch.com/blog/how-to-solve-data-science-business-case-interview-questions"
-            },
-            {
-              "label": "Data Science Product Questions Guide",
-              "url": "https://www.stratascratch.com/blog/the-ultimate-guide-to-product-data-science-interview-questions"
-            }
-          ]
+          "tags": ["SQL", "Python", "Data Analysis"]
         },
         {
           "title": "Junior Software Engineer",

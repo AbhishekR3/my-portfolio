@@ -20,6 +20,7 @@ const LinkedInPosts = ({ posts }: LinkedInPostsProps) => {
     if (platform === 'Medium') return 'platform-medium';
     if (platform === 'GitHub Pages') return 'platform-github-pages';
     if (platform === 'StrataScratch') return 'platform-stratascratch';
+    if (platform === 'X') return 'platform-x';
     return '';
   };
 

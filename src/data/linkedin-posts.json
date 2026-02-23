@@ -1,5 +1,13 @@
 [
   {
+    "id": "7",
+    "title": "AI Agents Building a C Compiler: What It Really Means",
+    "content": "Breaking down Anthropic's experiment where 16 parallel Claude Opus agents built a Rust-based C compiler with 99% GCC test pass rate for $20k. Discussing orchestration design as a core developer skill, context window challenges, security benchmarking gaps, and energy efficiency implications for autonomous software development.",
+    "date": "2026-02-22",
+    "url": "https://x.com/ShakeThoughts/status/2025750850061455461?s=20",
+    "platform": "X"
+  },
+  {
     "id": "1",
     "title": "The Hidden Cost of AI in Early Careers",
     "content": "Exploring how AI adoption is reshaping entry-level positions and what it means for career development in the age of automation.",

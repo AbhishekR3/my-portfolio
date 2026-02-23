@@ -36,8 +36,8 @@ const Header = () => {
 
           <ul className="nav-menu">
             <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a></li>
-            <li><a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Project</a></li>
-            <li><a href="#posts" onClick={(e) => { e.preventDefault(); scrollToSection('posts'); }}>Articles</a></li>
+            <li><a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a></li>
+            <li><a href="#posts" onClick={(e) => { e.preventDefault(); scrollToSection('posts'); }}>Writings</a></li>
             <li><a href="#resume" onClick={(e) => { e.preventDefault(); scrollToSection('resume'); }}>Resume</a></li>
             <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a></li>
           </ul>

@@ -18,7 +18,7 @@ const LinkedInPosts = ({ posts }: LinkedInPostsProps) => {
   const getPlatformClass = (platform?: string) => {
     if (platform === 'LinkedIn') return 'platform-linkedin';
     if (platform === 'Medium') return 'platform-medium';
-    if (platform === 'GitHub Pages') return 'platform-github-pages';
+    if (platform === 'GitHub') return 'platform-github-pages';
     if (platform === 'StrataScratch') return 'platform-stratascratch';
     if (platform === 'X') return 'platform-x';
     return '';
@@ -27,7 +27,7 @@ const LinkedInPosts = ({ posts }: LinkedInPostsProps) => {
   return (
     <section id="posts" className="section">
       <div className="container">
-        <h2>Articles</h2>
+        <h2>Technical Writing & Publications</h2>
         <div className="posts-grid">
           {posts.map((post) => (
             <article key={post.id} className="card post-card">

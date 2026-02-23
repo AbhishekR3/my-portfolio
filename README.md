@@ -10,7 +10,7 @@ A clean, modern portfolio website built with React, TypeScript, and Vite. Featur
 - Easy content management via JSON files
 - About section with bio and profile image
 - Featured projects showcase with GitHub links
-- LinkedIn posts feed
+- Technical writing & publications feed (LinkedIn, Medium, GitHub, X, and more)
 - Resume section with embedded content and PDF download
 - Social links and contact section
 - Automated deployment to GitHub Pages
@@ -77,19 +77,19 @@ Add or remove projects:
 ]
 ```
 
-### LinkedIn Posts (`src/data/linkedin-posts.json`)
+### Writings (`src/data/linkedin-posts.json`)
 
-Add your LinkedIn posts:
+Add your technical writing and publications. Supports multiple platforms (LinkedIn, Medium, GitHub, StrataScratch, X):
 
 ```json
 [
   {
     "id": "1",
+    "title": "Post title",
     "content": "Post content...",
     "date": "2024-01-15",
-    "url": "https://linkedin.com/posts/...",
-    "likes": 45,
-    "comments": 8
+    "url": "https://...",
+    "platform": "LinkedIn"
   }
 ]
 ```

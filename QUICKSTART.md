@@ -9,7 +9,7 @@ The development server is already running at: http://localhost:5173
 You should see your portfolio with:
 - About section
 - Featured projects
-- LinkedIn posts
+- Technical writing & publications
 - Resume
 - Contact information
 
@@ -38,9 +38,9 @@ Edit `src/data/projects.json` - add or remove projects as needed. Each project s
 - Live URL (optional)
 - Image URL (optional)
 
-### 3. Add LinkedIn Posts
+### 3. Add Writings
 
-Edit `src/data/linkedin-posts.json` - add your recent posts. Update the URLs to point to your actual LinkedIn posts.
+Edit `src/data/linkedin-posts.json` - add your technical writing and publications. Supports multiple platforms including LinkedIn, Medium, GitHub, StrataScratch, and X.
 
 ### 4. Update Social Links
 
@@ -140,7 +140,7 @@ npm run preview  # Preview production build locally
 1. Test locally before deploying
 2. Keep your content updated regularly
 3. Use high-quality images (but optimize them for web)
-4. Update your LinkedIn posts periodically
+4. Update your writings periodically
 5. Keep your resume current
 
 Enjoy your new portfolio! 🚀

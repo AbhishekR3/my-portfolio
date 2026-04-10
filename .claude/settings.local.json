@@ -7,7 +7,8 @@
       "Bash(gh run list:*)",
       "Bash(npm run deploy:*)",
       "WebFetch(domain:www.stratascratch.com)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git push:*)"
     ]
   }
 }

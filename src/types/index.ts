@@ -1,3 +1,17 @@
+export interface OceanTraitData {
+  score: number;
+  confidence: 'HIGH' | 'MEDIUM' | 'LOW';
+  trait: string;
+}
+
+export interface OceanData {
+  O: OceanTraitData;
+  C: OceanTraitData;
+  E: OceanTraitData;
+  A: OceanTraitData;
+  N: OceanTraitData;
+}
+
 export interface Project {
   id: string;
   title: string;
@@ -7,6 +21,7 @@ export interface Project {
   liveUrl?: string;
   imageUrl?: string;
   featured?: boolean;
+  oceanData?: OceanData;
 }
 
 export interface LinkedInPost {

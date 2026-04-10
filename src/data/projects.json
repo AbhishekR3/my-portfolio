@@ -1,6 +1,21 @@
 [
   {
     "id": "1",
+    "title": "Solace: Personal Data Archaeology",
+    "description": "A personal data archaeology toolkit that analyzes what your apps track about you. OCEAN personality is an industry wide used methodology to track your behavioral data to profile consumers. This helps users understand what type of information others are collecting.",
+    "tags": ["Python", "NLP", "Prompt Engineering", "Privacy", "Psychology"],
+    "githubUrl": "https://github.com/AbhishekR3/solace",
+    "featured": true,
+    "oceanData": {
+      "O": { "score": 85, "confidence": "HIGH", "trait": "Openness" },
+      "C": { "score": 62, "confidence": "MEDIUM", "trait": "Conscientiousness" },
+      "E": { "score": 41, "confidence": "LOW", "trait": "Extraversion" },
+      "A": { "score": 74, "confidence": "HIGH", "trait": "Agreeableness" },
+      "N": { "score": 55, "confidence": "MEDIUM", "trait": "Neuroticism" }
+    }
+  },
+  {
+    "id": "2",
     "title": "PlayBook AI: Basketball Intelligence",
     "description": "Advanced video analysis software that classifies offensive and defensive basketball plays using computer vision and deep learning. Achieved 87.6% accuracy with temporal neural networks and engineered a custom YOLO object tracking model with 99.5% mAP50 and 99.6% precision. Features spatial database with <80ms query response times and optimized AWS infrastructure reducing compute costs by 63%.\n\nProduct Goals: Help basketball professionals analyze offensive and defensive plays executed by teams, assess potential player fit within a team, understand play patterns in critical game moments, and identify a team's most/least successful plays.",
     "tags": ["Neural Networks", "Spatial Computing", "AWS", "Docker", "GPU-Acceleration"],

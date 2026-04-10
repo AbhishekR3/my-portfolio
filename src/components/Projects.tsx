@@ -1,4 +1,5 @@
 import type { Project } from '../types';
+import OceanChart from './OceanChart';
 import './Projects.css';
 
 interface ProjectsProps {
@@ -9,15 +10,19 @@ const Projects = ({ projects }: ProjectsProps) => {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2>Featured Project</h2>
+        <h2>Featured Projects</h2>
         <div className="projects-featured">
           {projects.map((project) => (
             <article key={project.id} className="featured-project-card">
-              {project.imageUrl && (
+              {project.oceanData ? (
+                <div className="featured-project-image ocean-chart-container">
+                  <OceanChart data={project.oceanData} />
+                </div>
+              ) : project.imageUrl ? (
                 <div className="featured-project-image">
                   <img src={project.imageUrl} alt={project.title} />
                 </div>
-              )}
+              ) : null}
               <div className="featured-project-content">
                 <h3>{project.title}</h3>
                 <p className="project-description">{project.description}</p>

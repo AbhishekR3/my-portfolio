@@ -97,8 +97,28 @@
   color: var(--color-text-secondary);
   margin-bottom: var(--spacing-md);
   flex: 1;
-  white-space: pre-line;
   line-height: 1.7;
+}
+
+.project-description p {
+  margin: 0 0 var(--spacing-sm);
+}
+
+.project-description p:last-child {
+  margin-bottom: 0;
+}
+
+.project-description ul {
+  margin: 0 0 var(--spacing-sm);
+  padding-left: 1.25em;
+}
+
+.project-description ul:last-child {
+  margin-bottom: 0;
+}
+
+.project-description li {
+  margin-bottom: 0.25em;
 }
 
 .project-tags {

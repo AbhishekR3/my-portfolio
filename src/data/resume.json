@@ -11,8 +11,7 @@
           "description": [
             "Designed an ML ETL pipeline that cut medical document review time by 99%—from hours to minutes",
             "Built scalable Docker/Kubernetes infrastructure with parallel processing, achieving 96% extraction accuracy and sub-100ms query responses through optimized vector search",
-            "Collaborated with product owners on technical specifications to ensure seamless delivery",
-            "Presented pipeline results to clinical stakeholders and translated technical accuracy metrics into measurable business value"
+            "Collaborated with product owners on technical specifications to ensure seamless delivery"
           ],
           "tags": ["PyTorch", "Docker/Kubernetes", "Cosmos DB", "LLMs"]
         },

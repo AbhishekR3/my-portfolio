@@ -1,20 +1,20 @@
 [
   {
+    "id": "2",
+    "title": "PlayBook AI: Basketball Intelligence",
+    "description": "Advanced video analysis software that classifies offensive and defensive basketball plays using computer vision and deep learning.\n\n- 87.6% classification accuracy using temporal neural networks\n- Custom YOLO object tracking model: 99.5% mAP50, 99.6% precision\n- Spatial database with <80ms query response times\n- Optimized AWS infrastructure, cutting compute costs by 63%\n\nProduct Goals: Help basketball professionals analyze offensive and defensive plays, assess player fit within a team, understand play patterns in critical moments, and identify a team's most/least successful plays.",
+    "tags": ["Neural Networks", "Spatial Computing", "AWS", "Docker", "GPU-Acceleration"],
+    "githubUrl": "https://github.com/AbhishekR3/Basketball-PlayAnalysis",
+    "imageUrl": "https://raw.githubusercontent.com/AbhishekR3/Basketball-PlayAnalysis/main/assets/ObjectTracking%20Demo.gif",
+    "featured": true
+  },
+  {
     "id": "3",
     "title": "Agentic Misalignment: Insider Threat Evaluation",
     "description": "An extension of Anthropic's research on agentic misalignment in LLMs ([How LLMs Could Be Insider Threats](https://www.anthropic.com/research/agentic-misalignment)). The framework systematically probes whether models engage in harmful agentic behaviors across three scenario classes — Blackmail, Information Leakage, and Goal Subversion — and runs against any LLM via API keys or Ollama, extending Anthropic's work with local model support and new scenario classes that further challenge LLM alignment.",
     "tags": ["AI Safety", "LLM Evaluation", "Alignment Research", "Python", "Ollama"],
     "githubUrl": "https://github.com/AbhishekR3/agentic-misalignment",
-    "imageUrl": "/misalignment-blackmail.webp",
-    "featured": true
-  },
-  {
-    "id": "2",
-    "title": "PlayBook AI: Basketball Intelligence",
-    "description": "Advanced video analysis software that classifies offensive and defensive basketball plays using computer vision and deep learning. Achieved 87.6% accuracy with temporal neural networks and engineered a custom YOLO object tracking model with 99.5% mAP50 and 99.6% precision. Features spatial database with <80ms query response times and optimized AWS infrastructure reducing compute costs by 63%.\n\nProduct Goals: Help basketball professionals analyze offensive and defensive plays executed by teams, assess potential player fit within a team, understand play patterns in critical game moments, and identify a team's most/least successful plays.",
-    "tags": ["Neural Networks", "Spatial Computing", "AWS", "Docker", "GPU-Acceleration"],
-    "githubUrl": "https://github.com/AbhishekR3/Basketball-PlayAnalysis",
-    "imageUrl": "https://raw.githubusercontent.com/AbhishekR3/Basketball-PlayAnalysis/main/assets/ObjectTracking%20Demo.gif",
+    "imageUrl": "https://abhishekr3.github.io/my-portfolio/misalignment-blackmail.webp",
     "featured": true
   },
   {
@@ -31,5 +31,14 @@
       "A": { "score": 74, "confidence": "HIGH", "trait": "Agreeableness" },
       "N": { "score": 55, "confidence": "MEDIUM", "trait": "Neuroticism" }
     }
+  },
+  {
+    "id": "4",
+    "title": "PS Local: Pokémon Showdown Battle Assistant",
+    "description": "A local app that acts as a live Pokémon Battle Assistant. Leverages Pokémon Showdown protocols and codebase to develop a helper panel showing opposing Pokémon's predicted information in real time.",
+    "tags": ["Electron", "React", "JavaScript", "Node.js"],
+    "githubUrl": "https://github.com/AbhishekR3/ps-local",
+    "imageUrl": "https://raw.githubusercontent.com/AbhishekR3/ps-local/main/docs/assets/UI-Demo.gif",
+    "featured": true
   }
 ]

@@ -10,11 +10,12 @@
   },
   {
     "id": "3",
-    "title": "Agentic Misalignment: Insider Threat Evaluation",
-    "description": "An extension of Anthropic's research on agentic misalignment in LLMs ([How LLMs Could Be Insider Threats](https://www.anthropic.com/research/agentic-misalignment)). The framework systematically probes whether models engage in harmful agentic behaviors across three scenario classes — Blackmail, Information Leakage, and Goal Subversion — and runs against any LLM via API keys or Ollama, extending Anthropic's work with local model support and new scenario classes that further challenge LLM alignment.",
-    "tags": ["AI Safety", "LLM Evaluation", "Alignment Research", "Python", "Ollama"],
-    "githubUrl": "https://github.com/AbhishekR3/agentic-misalignment",
-    "imageUrl": "https://abhishekr3.github.io/my-portfolio/misalignment-blackmail.webp",
+    "title": "RSS System Design: Engineering Blog Digest",
+    "description": "A daily feed of system design decisions, architectures and failures from 88+ company engineering blogs (Netflix, Cloudflare, Databricks, Airbnb, …)\n\n- Python pipeline polls each blog's RSS feed, extracts full article text, and batches each day's new posts\n- A scheduled Claude agent classifies every article, tags it by system design subject and design concern, and writes a one-sentence summary\n- Publishes daily at 8 AM PT to GitHub Pages as a filterable web page plus two RSS feeds\n\nProduct Goals: Help engineers keep up with how real companies design, scale and fix their systems",
+    "tags": ["LLM Classification", "Prompt Engineering", "Python", "RSS"],
+    "githubUrl": "https://github.com/AbhishekR3/rss-system-design",
+    "liveUrl": "https://abhishekr3.github.io/rss-system-design/",
+    "imageUrl": "/rss-system-design.webp",
     "featured": true
   },
   {

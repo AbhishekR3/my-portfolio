@@ -16,6 +16,7 @@ const AI_HIGHLIGHT_TAGS = new Set([
   'GPU-Acceleration',
   'NLP',
   'Prompt Engineering',
+  'LLM Classification',
   'AI Safety',
   'Alignment Research',
 ]);
